@@ -1,0 +1,7 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: materiels-service
+database:
+  connection-string: ${CONNECTION_STRING:Server=localhost;Database=my_db;User=root;Password=nano@password}
